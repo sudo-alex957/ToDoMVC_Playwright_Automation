@@ -1,0 +1,5 @@
+test_deleted_todo_does_not_appear_in_any_view:
+  - test_id: NX-10400
+    test_name: "Todo - Deleted item absent from all views"
+    keeper: "Keep me"
+    delete: "Delete me"

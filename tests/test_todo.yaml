@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# Test data for tests/test_todo.py
+# Each top-level key matches a test function name.
+# Each list item is one iteration passed as the "iteration" dict.
+# ---------------------------------------------------------------------------
+
+test_add_new_todo_with_various_text:
+  - test_id: NX-10000
+    test_name: "Todo - Add new Todo with English text"
+    text: "Buy groceries"
+  - test_id: NX-10001
+    test_name: "Todo - Add new Todo with Spanish text"
+    text: "Comprar comestibles"
+  - test_id: NX-10002
+    test_name: "Todo - Add new Todo with special characters"
+    text: "Call mom @ 5pm!"
+  - test_id: NX-10003
+    test_name: "Todo - Add new Todo with non-English characters"
+    text: "买菜"
+  - test_id: NX-10004
+    test_name: "Todo - Add new Todo with long text"
+    text: "This is a very long todo item that exceeds typical character limits to test how the application handles it. It should be truncated or rejected based on the implementation."
+
+
+
+

@@ -1,0 +1,17 @@
+test_completed_item_appears_in_completed_view:
+  - test_id: NX-10100
+    test_name: "Todo - Completed item appears in Completed view"
+    active: "Active task"
+    completed: "Completed task"
+
+test_active_filter_shows_only_not_completed_items:
+  - test_id: NX-10200
+    test_name: "Todo - Active filter shows only active items"
+    active: "Active task"
+    completed: "Completed task"
+
+test_completed_filter_shows_only_completed_items:
+  - test_id: NX-10300
+    test_name: "Todo - Completed filter shows only completed items"
+    active: "Active task"
+    completed: "Completed task"

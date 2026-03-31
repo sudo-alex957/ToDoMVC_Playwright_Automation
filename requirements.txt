@@ -1,0 +1,6 @@
+playwright==1.52.0
+pytest==8.3.5
+pytest-html==4.1.1
+pytest-rerunfailures==15.0
+pyyaml==6.0.3
+
